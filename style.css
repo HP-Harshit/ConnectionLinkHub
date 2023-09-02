@@ -185,6 +185,16 @@ a{
     font-weight: 600;
 }
 
+.sc{
+    display: block;
+}
+
+.links:hover .bttn{
+    filter: blur(0);
+}
+
+
+
 } 
 
 .nav{
@@ -245,8 +255,8 @@ a{
     backdrop-filter: blur(25px); 
     border: 1px solid rgba(255, 255, 255, 0.2); 
     border-radius: 25px;
-    height: 65%;
-    width: auto;
+    height: auto;
+    width: 80%;
 }
 
 
@@ -260,8 +270,9 @@ a{
 
 
 .modal-container .cd{
-    height: 90%;
-    width: auto;
+    height: auto;
+    width: 90%;
+    /* width: auto; */
     border-radius: 25px;
     margin: 2px auto;
 }
