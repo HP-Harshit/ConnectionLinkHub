@@ -193,7 +193,15 @@ a{
     filter: blur(0);
 }
 
+.modal-container{
+    width: 80%;
+    height: auto;
+}
 
+.modal-container .cd{
+    width: 90%;
+    height: auto;
+}
 
 } 
 
@@ -255,8 +263,8 @@ a{
     backdrop-filter: blur(25px); 
     border: 1px solid rgba(255, 255, 255, 0.2); 
     border-radius: 25px;
-    height: auto;
-    width: 80%;
+    height: 65%;
+    width: auto;
 }
 
 
@@ -270,9 +278,8 @@ a{
 
 
 .modal-container .cd{
-    height: auto;
-    width: 90%;
-    /* width: auto; */
+    height: 90%;
+    width: auto;
     border-radius: 25px;
     margin: 2px auto;
 }
