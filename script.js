@@ -16,7 +16,7 @@ var ytlink = "https://youtube.com/@irregulardeveloper_?si=YpUGh1MkJFFLJEAZ";
 
 //    PHOTOS
 
-var shareimg = "collab.jpg"; 
+var shareimg = "CLH.png"; 
 var contactimg = "joker.png"; 
 var mailimg = "hny.png"; 
 var wpimg = "wpjoker.jpg"; 
