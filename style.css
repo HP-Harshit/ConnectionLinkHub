@@ -174,78 +174,6 @@ a{
 
 
 
-/* @media screen and (max-width:300px) and (min-width: 600px){} */
-
-
-
-
-@media only screen and (max-width:450px){
-
-    .links:hover .bttn{
-        filter: blur(0);
-    }
-
-    .logo img{
-        height: 28px;
-        width: auto;
-    }
-
-    .sc{
-        display: block;
-    }
-
-    .ax p{
-        margin: 7px;
-        padding: 4px;
-        font-family: 'Barlow', sans-serif;
-        font-size: large;
-        font-weight: 600;
-    }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) and (min-width: 450px){
-    .ax p{
-    margin: 10px;
-    padding: 8px;
-    font-family: 'Barlow', sans-serif;
-    font-size: larger;
-    font-weight: 600;
-}
-
-
-
-.links:hover .bttn{
-    filter: blur(0);
-}
-
-.modal-container{
-    width: 80%;
-    height: auto;
-}
-
-.modal-container .cd{
-    width: 90%;
-    height: auto;
-}
-
-} 
 
 
 
@@ -313,8 +241,8 @@ a{
     backdrop-filter: blur(25px); 
     border: 1px solid rgba(255, 255, 255, 0.2); 
     border-radius: 25px;
-    height: auto;
-    width: 70%;
+    height: 65%;
+    width: auto;
 }
 
 
@@ -328,8 +256,8 @@ a{
 
 
 .modal-container .cd{
-    height: auto;
-    width: 90%;
+    height: 90%;
+    width: auto;
     border-radius: 25px;
     margin: 2px auto;
 }
@@ -367,3 +295,93 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:300px) and (min-width: 600px){} */
+
+
+
+
+@media only screen and (max-width:450px){
+
+    .links:hover .bttn{
+        filter: blur(0);
+    }
+
+    .logo img{
+        height: 28px;
+        width: auto;
+    }
+
+    .sc{
+        display: block;
+    }
+
+    .ax p{
+        margin: 7px;
+        padding: 4px;
+        font-family: 'Barlow', sans-serif;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .modal-container{
+        width: 80%;
+        height: auto;
+    }
+    
+    .modal-container .cd{
+        width: 90%;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) and (min-width: 450px){
+    .ax p{
+    margin: 10px;
+    padding: 8px;
+    font-family: 'Barlow', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+
+.links:hover .bttn{
+    filter: blur(0);
+}
+
+.modal-container{
+    width: 80%;
+    height: auto;
+}
+
+.modal-container .cd{
+    width: 90%;
+    height: auto;
+}
+
+} 
